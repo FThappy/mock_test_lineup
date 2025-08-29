@@ -5,7 +5,7 @@ import MainChart from "./components/MainChart/MainChart";
 import axiosInstance from "./services/api-services";
 import URL_PATHS from "./services/url-path";
 import { useState } from "react";
-import type { CANDLE_RESPONE, CANDLE_TYPE, TIME_FRAME_TYPE } from "./lib/typeCommon";
+import type { CANDLE_RESPONE, TIME_FRAME_TYPE } from "./lib/typeCommon";
 import { Skeleton } from "./components/ui/skeleton";
 
 function App() {
